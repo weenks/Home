@@ -12,7 +12,7 @@ function Login() {
             <div className="login_logo">
                 <img src='https://fontmeme.com/images/discord-logo-font.png' alt='discord logo' />
             </div>
-            <Button onClick={signIn}> Sign in </Button>
+            <Button className="btnLog" onClick={signIn}> Sign in </Button>
         </div>
     )
 }

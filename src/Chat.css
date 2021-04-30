@@ -8,6 +8,7 @@ height: 100vh;
 
 .chat__messages {
 flex: 1;
+overflow-y: scroll
 }
 .chat__input {
 color: lightgray;
