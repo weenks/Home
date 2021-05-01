@@ -1,24 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
 .login{
-    display: grid;
-    place-items: center;
+    background-color: #4c3f54;
+    width: 100%;
     height: 100vh;
-    width:100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Zen Dots', cursive;
+    font-size: 16px;
 }
 
-.login > button {
-    width: 300px;
-    background-color: rgb(72, 106, 145);
+#LogoImage {
+    width: 90px;
+    height: 90px;
+    display: block;
+    cursor: pointer;
+    margin-right:auto;
+}
+
+/*Header*/
+header li, header a, header Button{
+    font-weight: 800;
+    font-size: 1em;
+    text-decoration: none;
     color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headerDiv{
+    display: block;
+    margin-right:auto;
+}
+
+
+.NavMenu{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.NavMenu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.NavMenu li a {
+    transition: all 0.5s ease 0s;
+}
+
+.NavMenu li a:hover {
+    color: rgb(0, 255, 221);
+}
+
+/*Button*/
+.ButtonContainer {
+    text-align: center;
+    margin: auto;
+}
+
+.login  button {
+    margin: 20px;
+    padding: 16px 50px;
+    border: 3px solid;
+    background-color: rgb(0, 138, 115);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: 'Zen Dots', cursive;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition-duration: 0.4s;
     font-weight: 800;
 }
 
-.login > button:hover {
+.login  button:hover {
     width: 300px;
     background-color: rgb(0, 0, 0);
     color: rgb(72, 106, 145);
 }
 
-.login > div > img{
+.login  div > img{
     object-fit: contain;
     height: 150px;
+}
+
+.FooterContainer {
+    background-color: #7e5699;
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+    padding: 2rem 0 1rem;
+    margin: 6rem auto 0;
+    box-sizing: border-box;
+    display: block;
+    bottom: 0;
+}
+
+.Footer {
+    width: 80%;
+    height: 15vh;
+    background-color: #7e5699;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.FooterHeading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.FooterHeading h2 {
+    margin-bottom: 1rem;
+    font-size: 1.4em;
+}
+
+.FooterHeading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.FooterHeading a:hover {
+    color: rgb(0, 255, 221);
+    transition: 0.3s ease-out;
 }
