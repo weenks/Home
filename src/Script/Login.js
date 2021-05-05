@@ -1,8 +1,8 @@
 import { Button } from '@material-ui/core'
 import React from 'react'
-import "./Login.css"
+import "../Style/Login.css"
 import { auth, provider } from "./firebase"
-import companyLogo from "./Data/CompanyLogo.png"
+import companyLogo from "../Data/CompanyLogo.png"
 
 
 function Login() {
@@ -12,7 +12,7 @@ function Login() {
     return (
         <div className='login'>
             <header>
-                <img id="LogoImage" src={companyLogo}/>
+                <img alt="LogoImage" id="LogoImage" src={companyLogo}/>
                 <div id="headerDiv">              
                     <nav class="NavBar">
                         <ul class="NavMenu">
@@ -41,8 +41,8 @@ function Login() {
                         </div>
                         <div class="FooterHeading Footer3">
                             <h2>Social Media</h2>
-                            <a href="#">Instagram</a>
-                            <a href="#">Twitter</a>
+                            <a href="">Instagram</a>
+                            <a href="">Twitter</a>
                         </div>
                         <div>
 

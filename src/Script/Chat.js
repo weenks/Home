@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "./Chat.css"
+import "../Style/Chat.css"
 import ChatHeader from './ChatHeader'
 import AddCircleIcon from "@material-ui/icons/AddCircle"
 import CardGiftcardIcon from "@material-ui/icons/CardGiftcard"
@@ -8,8 +8,8 @@ import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions"
 import Message from './Message'
 import { useSelector } from 'react-redux'
 import db from './firebase'
-import { selectUser } from './features/userSlice'
-import { selectChannelId, selectChannelName } from './features/appSlice';
+import { selectUser } from '../features/userSlice'
+import { selectChannelId, selectChannelName } from '../features/appSlice';
 import firebase from "firebase";
 
 function Chat() {

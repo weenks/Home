@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Message.css"
+import "../Style/Message.css"
 import {Avatar} from "@material-ui/core";
 
 function Message({ timestamp, user, message }) {

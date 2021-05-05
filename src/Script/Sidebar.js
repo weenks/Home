@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "./Sidebar.css"
+import "../Style/Sidebar.css"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import AddIcon from "@material-ui/icons/Add"
 import SidebarChannel from './SidebarChannel';
@@ -11,7 +11,7 @@ import MicIcon from "@material-ui/icons/Mic"
 import HeadsetIcon from "@material-ui/icons/Headset"
 import SettingsIcon from "@material-ui/icons/Settings"
 import { useSelector } from 'react-redux';
-import { selectUser } from './features/userSlice';
+import { selectUser } from '../features/userSlice';
 import db, { auth } from './firebase';
 
 
