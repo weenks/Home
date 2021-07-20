@@ -15,7 +15,7 @@ function ChatHeader({ channelName}) {
                 </h3>
             </div>
             <div className="chatHeader__right">
-                <PeopleAltRoundedIcon />
+                {/*<PeopleAltRoundedIcon />*/}
             </div>
         </div>
     );
