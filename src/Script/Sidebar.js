@@ -43,14 +43,14 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__top">
-                <h3>Friends</h3>
+                <h3>Canales Informativos</h3>
                 <ExpandMoreIcon />
             </div>
             <div className="sidebar__channels">
                 <div className="sidebar__channelsHeader">
                     <div className="sidebar__header">
                         <ExpandMoreIcon />
-                        <h4>Text Channels</h4>
+                        <h4>Canales de texto</h4>
                     </div>
                     <AddIcon onClick={handleAddChannel} className="sidebar__addChannel" />
                 </div>
@@ -70,11 +70,6 @@ function Sidebar() {
                 <div className="sidebar__profileInfo">
                     <h3>{user.displayName}</h3>
                     <p>#{user.uid.substring(0,5)}</p>
-                </div>
-                <div className="sidebar__profileIcons">
-                    <MicIcon />
-                    <HeadsetIcon />
-                    <SettingsIcon />
                 </div>
             </div>
         </div>
