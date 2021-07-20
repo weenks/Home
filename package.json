@@ -2,7 +2,7 @@
   "name": "weenkstest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://weenks.github.io/Home",
+  "homepage": "http://mensajeriaijr.github.io/Home",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
