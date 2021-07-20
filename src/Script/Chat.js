@@ -24,7 +24,7 @@ function Chat() {
             db.collection("channels")
                 .doc(channelId)
                 .collection("messages")
-                .orderBy("timestamp", "desc")
+                .orderBy("timestamp", "asc")
                 .onSnapshot((snapshot) =>
                     setMessages(snapshot.docs.map((doc) => doc.data()))
                 );
@@ -76,9 +76,6 @@ function Chat() {
                     </button>
                 </form>
                 <div className="chat__inputIcons">
-                    <CardGiftcardIcon fontsize="large" />
-                    <GifIcon fontsize="large" />
-                    <EmojiEmotionsIcon fontsize="large" />
                 </div>
             </div>
         </div>
