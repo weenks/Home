@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Home/static/css/main.d0702526.chunk.css",
+    "main.css": "/Home/static/css/main.c5b70512.chunk.css",
     "main.js": "/Home/static/js/main.5690d1f6.chunk.js",
     "main.js.map": "/Home/static/js/main.5690d1f6.chunk.js.map",
     "runtime-main.js": "/Home/static/js/runtime-main.f6738899.js",
@@ -8,14 +8,14 @@
     "static/js/2.cb5962c8.chunk.js": "/Home/static/js/2.cb5962c8.chunk.js",
     "static/js/2.cb5962c8.chunk.js.map": "/Home/static/js/2.cb5962c8.chunk.js.map",
     "index.html": "/Home/index.html",
-    "static/css/main.d0702526.chunk.css.map": "/Home/static/css/main.d0702526.chunk.css.map",
+    "static/css/main.c5b70512.chunk.css.map": "/Home/static/css/main.c5b70512.chunk.css.map",
     "static/js/2.cb5962c8.chunk.js.LICENSE.txt": "/Home/static/js/2.cb5962c8.chunk.js.LICENSE.txt",
     "static/media/Escudo colegio.c56dc14e.png": "/Home/static/media/Escudo colegio.c56dc14e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f6738899.js",
     "static/js/2.cb5962c8.chunk.js",
-    "static/css/main.d0702526.chunk.css",
+    "static/css/main.c5b70512.chunk.css",
     "static/js/main.5690d1f6.chunk.js"
   ]
 }
